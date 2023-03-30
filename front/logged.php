@@ -49,7 +49,7 @@ $usuario = mysqli_fetch_assoc($resultado);
         <?php echo $usuario["usuario_user"] ?> <br>
         
     </div>
-    <a href="alteracoes.php"><button type="button" class="btn btn-primary btn-sm">Editar</button></a> <br>
+    <a href="alteracoes.php"><button type="button" class="btn btn-primary btn-sm">Editar</button></a> 
     <a href="../back/logout.php"><button type="button" class="btn btn-primary btn-sm">Encerrar sessão</button></a> 
     <button type="button" class="btn btn-danger btn-lg" id="delete">Apagar conta</button>
     
